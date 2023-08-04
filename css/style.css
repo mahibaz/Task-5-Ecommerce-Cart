@@ -1,0 +1,32 @@
+.cart-img,.cart-imgs{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.whiteboard {
+  position: fixed;
+  top: 0;
+  right: -400px; 
+  width: 400px;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  z-index: 999;
+  transition: right 0.3s ease;
+}
+.x-btn{
+  cursor: pointer;
+}
+
+#quantity{
+  width: 50px;
+}
+
+
